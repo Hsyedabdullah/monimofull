@@ -1,0 +1,272 @@
+/* coomon css start */
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+@font-face {
+    font-family:Raleway-Bold;
+    src: url(../font/raleway/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family:Raleway-Light;
+    src: url(../font/raleway/Raleway-Light.ttf);
+}
+
+@font-face {
+    font-family:Raleway-Regular;
+    src: url(../font/raleway/Raleway-Regular.ttf);
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f2656;
+    width: 1200px;
+    margin: 0 auto;
+}
+/* common css end */
+/* header start */
+header {
+    padding: 30px 0;
+}
+.container {
+    width: 90%;
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo {
+    margin-top: 4px;
+    width: 10%;
+    /* border: 1px solid red; */
+    float: left;
+    padding: 16px;
+}
+.logo a {
+    display: block;
+}
+.logo a img {
+    width: 100%;
+}
+.menu {
+    width: 60%;
+    /* border: 1px solid red; */
+    float: right;
+}
+.menu ul{
+    margin: 0;
+    float: right;
+}
+.menu ul li {
+    list-style: none;
+    float: left;
+    
+}
+.menu ul li a{
+    margin: 11px 40px;
+    padding: 5px 2px;
+    color: #626262;
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 1ps solid transparent;
+    text-decoration: none;
+    transition: .33s;
+}
+.menu ul li a:hover {
+    border-bottom: 1px solid #626262;
+}
+
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+
+/* header end */
+/* benner start */
+.benner {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.benner img{
+    width: 100%;
+
+}
+/* benner end */
+/* messege start */
+.message {
+    padding: 80px 0 20px;
+}
+.container2 {
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+    /* border: 1px solid;   */
+}
+.light {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.title {
+    margin: 20px 0 30px;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+.text {
+    margin: 0;
+    line-height: 24px;
+}
+.mt_40 {
+    margin-top: 40px;
+}
+/* messege end */
+
+/* blog start */
+.blog {
+    padding: 0 0 80px;
+}
+.s_blog {
+    margin-top: 60px;
+    width: 47%;
+    /* border: 1px solid red; */
+    float: left;
+}
+.s_blog:nth-child(even) {
+    margin-left: 6%;
+}
+.s_img {
+    margin-bottom: 25px;
+}
+.s_img img {
+    width: 100%;
+}
+/* blog end */
+
+/* news start */
+.news {
+    background-color: #f0f0f0;
+    padding: 70px 0;
+}
+.signup {
+    text-align: center;
+}
+.s_h1 {
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+.s_form {
+    position: relative;
+    width: 400px;
+    
+   
+    margin: 0 auto;
+}
+.s_form input {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #626262;
+    width: 345px;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid transparent;
+    padding-left: 5px;
+    padding-right: 45px;
+}
+.s_form input:focus {
+    outline: 0;
+}
+
+.s_form button {
+    position: absolute;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    top: 15px;
+    right: 0;
+}
+.s_form button:focus {
+    outline: 0;
+}
+.s_form button img {
+
+}
+
+/* news end */
+/* blog2 stat */
+.blog2 {
+    padding-top: 40px;
+}
+/* blog2 end */
+/* button start */
+.load {
+    margin: 100px 0;
+    text-align: center;
+}
+.load button {
+width: 165px;
+height: 60px;
+background: transparent;
+font-family: 'Playfair Display', serif;
+font-size: 20px;
+font-weight: 400;
+color: #626262;
+cursor: pointer;
+transition: .33s;
+
+}
+.load button:hover {
+    background-color: #626262;
+    color: white;
+}
+/* button end */
+/* footer start */
+footer {
+
+}
+.footer {
+    width: 100%;
+    height: 90px;
+    background-color: #f0f0f0;
+}
+.term {
+    width: 40%;
+    float: left;
+    padding:15px 0px 15px 80px;
+    /* border: 1px solid blue; */
+}
+.term p {
+    font-family: 'Playfair Display', serif;
+}
+.term p a {
+    color: #626262;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.link {
+    width: 30%;
+    float: right;
+    /* border: 1px solid blue; */
+}
+.link ul {
+    float: right;
+}
+.link ul li {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    float: left;
+    list-style: none;
+}
+.link ul li a {
+    padding: 15px;
+    color: #626262;
+    display: inline-block;
+    text-decoration: none;
+}
+/* footer end */
