@@ -1,2 +1,2 @@
 # monimofull
-monimo
+https://hsyedabdullah.github.io/monimofull/
